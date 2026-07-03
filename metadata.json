@@ -1,0 +1,6 @@
+{
+  "name": "BashaBazar BD",
+  "description": "A multi-category marketplace in Bangladesh for house rentals, property sales, and furniture trading.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

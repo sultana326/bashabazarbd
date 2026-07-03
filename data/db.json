@@ -1,0 +1,116 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Tahmid Hasan",
+      "email": "tahmid@bashabazar.com",
+      "phone": "01712345678",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "role": "seller",
+      "createdAt": "2026-06-24T23:43:51.764Z"
+    },
+    {
+      "id": 2,
+      "name": "Sumaiya Akhter",
+      "email": "sumaiya@bashabazar.com",
+      "phone": "01812345678",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "role": "buyer",
+      "createdAt": "2026-06-24T23:43:51.764Z"
+    }
+  ],
+  "listings": [
+    {
+      "id": 1,
+      "userId": 1,
+      "category": "rent",
+      "title": "Modern 3 BHK Luxury Flat with South Facing Balconies",
+      "description": "Beautiful 3-bedroom, 3-bathroom flat in Dhanmondi. High floor, 24/7 security, lift, standby generator, and dedicated parking. Walking distance to Lake and major hospitals/schools.",
+      "price": 38000,
+      "location": "Road 15/A, Dhanmondi",
+      "area": "Dhanmondi, Dhaka",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "image": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&q=80&w=800",
+      "status": "available",
+      "createdAt": "2026-06-21T23:43:51.764Z"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "category": "sale",
+      "title": "Premium West-Facing residential plot in Sector 12",
+      "description": "Ready-to-build 5 Katha residential plot in Uttara Sector 12. Demarcated boundary walls, high land, utility connections (gas, electricity, water) already approved.",
+      "price": 32000000,
+      "location": "Sector 12, Uttara",
+      "area": "Uttara, Dhaka",
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80&w=800",
+      "status": "available",
+      "createdAt": "2026-06-19T23:43:51.764Z"
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "category": "furniture",
+      "title": "Exquisite Teak Wood 3+2+1 Sofa Set with Cushions",
+      "description": "Authentic Segun (Chittagong Teak) wood sofa set in pristine condition. Comfortable premium velvet-upholstered cushions included. Hand-carved classic visual designs.",
+      "price": 45000,
+      "location": "Sector 4, Uttara",
+      "area": "Uttara, Dhaka",
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "image": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&q=80&w=800",
+      "status": "available",
+      "createdAt": "2026-06-23T23:43:51.764Z"
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "category": "rent",
+      "title": "Cozy Studio Flat/Mess for Students & Professionals",
+      "description": "Affordable studio apartment in Bashundhara R/A. High-speed internet connection, attached bathroom, tiny kitchenette, tiles floor, and security guards.",
+      "price": 12000,
+      "location": "Block C, Bashundhara R/A",
+      "area": "Bashundhara R/A, Dhaka",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&q=80&w=800",
+      "status": "available",
+      "createdAt": "2026-06-24T11:43:51.764Z"
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "category": "sale",
+      "title": "Semi-Furnished Modern 1650 Sft Flat in Banani",
+      "description": "Elegant 3 Bedrooms, 4 Bathrooms apartment with state-of-the-art kitchen, cabinets, ACs, geysers, Intercom and complete wooden floors. Extremely prime location near Road 11.",
+      "price": 24500000,
+      "location": "Road 11, Banani",
+      "area": "Banani, Dhaka",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "image": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&q=80&w=800",
+      "status": "available",
+      "createdAt": "2026-06-16T23:43:51.764Z"
+    },
+    {
+      "id": 6,
+      "userId": 1,
+      "category": "furniture",
+      "title": "Solid Oak Wood 6-Chair Dining Table Set",
+      "description": "Imported Malaysian high-grade Oak wood dining table with 6 cushion chairs. Glass top (10mm tempered glass) included. Nil scratches, only used for 1 year.",
+      "price": 32000,
+      "location": "Chawkbazar, Chattogram",
+      "area": "Halishahar, Chattogram",
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "image": "https://images.unsplash.com/photo-1615066390971-03e4e1c36ddf?auto=format&fit=crop&q=80&w=800",
+      "status": "available",
+      "createdAt": "2026-06-22T23:43:51.764Z"
+    }
+  ],
+  "wishlists": [],
+  "messages": []
+}
