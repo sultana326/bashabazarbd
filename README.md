@@ -1,20 +1,32 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+BashaBazar BD
 
-# Run and deploy your AI Studio app
+Bangladesh's Leading Online Marketplace for Rentals, Property & Furniture
 
-This contains everything you need to run your app locally.
+BashaBazar BD is a full-stack web application that helps people in Bangladesh find rental flats, buy/sell land & property, and shop for quality furniture — all in one platform.
 
-View your app in AI Studio: https://ai.studio/apps/116f61da-18a9-47bb-813d-c482141bd8fe
+Features
+-Role-based user authentication (Buyer/Seller)
+-Create, browse, update & delete listings (Rentals, Property, Furniture)
+-Wishlist / Save favorite listings
+-In-app messaging between buyers and sellers
+-Fully responsive design (mobile & desktop)
+-Search & filter listings by keyword
 
-## Run Locally
+Tech Stack
+-Frontend: HTML, CSS, JavaScript
+-Backend: PHP
+-Database: MySQL
+-Server Environment:XAMPP
 
-**Prerequisites:**  Node.js
+Database
+The complete database schema and sample data are provided in [`bashabazar.sql`](./bashabazar.sql).
 
+Getting Started
+1. Clone this repository
+2. Import `bashabazar.sql` into your MySQL server (via phpMyAdmin or CLI)
+3. Set up your database credentials in the config file
+4. Run the project on XAMPP (place folder in `htdocs`)
+5. Visit `http://localhost/bashabazarbd` in your browser
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Developed By
+Sultana Akter , Mohsin hasan — CSE, Metropolitan University, Sylhet
